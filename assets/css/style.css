@@ -1,0 +1,31 @@
+section {
+    height: 100vh;
+    position: relative;
+}
+
+button#add-new {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+
+.table-wrapper {
+    overflow-y: scroll;
+    height: 520px;
+}
+
+.table-wrapper th {
+    position: sticky;
+    top: -2px; 
+}
+
+.table-wrapper thead th {
+    background: #c0d8ec;
+}
+
+td,th{
+    text-align: center!important;
+  }
